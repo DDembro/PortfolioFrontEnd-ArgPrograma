@@ -1,5 +1,27 @@
 body {
-    background-color: red;
+    background-image: url("./esqueletoEpico.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.destacado {font-size: xx-large;}
+.container {
+    border-radius: 15px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.bg_general {
+    background: #7e776f;
+}
+
+#img_fotopersonal {
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 576px) {
+    #nombre{
+        display: inline;
+        padding: 20px;
+    }
+}
