@@ -1,0 +1,40 @@
+{
+	"personal": {
+		"nombre": "Nicolas Dembrowky",
+		"fotoPerfil": "../assets/Imagenes/fotoNicolasDembrowky.jpg",
+		"descripcion": "Estudiante de sistemas UTN"
+	},
+
+	"acercaDe": {
+		"descripcion": "Soy un desarrollador fullstack"
+	},
+
+	"educacion": [
+		{
+			"nombre": "UTN",
+			"fecha": "2023 - Actualidad",
+            "titulo": "Ingeniero en sistemas de la informacion"
+		},
+        
+		{
+			"nombre": "Instituto 13 de Julio",
+			"fecha": "2017 - 2022",
+            "titulo": "Tecnico mecanico electricista"
+		}
+    ],
+
+	"habilidades": [
+     
+        {
+            "skill": "Programacion"
+        },
+            
+        {
+            "skill": "Electricidad"
+        },
+   
+        {
+            "skill": "Ingles"
+        }
+    ]
+}
