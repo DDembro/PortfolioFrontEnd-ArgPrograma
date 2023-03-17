@@ -8,6 +8,9 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { PreyectosComponent } from './componentes/preyectos/preyectos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     AcercaDeComponent,
     EducacionComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    NavbarComponent,
+    FooterComponent,
+    PreyectosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+Debe tener: 
+Estudios
+Skils
+Descripciones
+
+
+BOTONES DE EDITAR
+
+PANTALLA LOG IN
+
+FOOTER (terminar el boton de mail)

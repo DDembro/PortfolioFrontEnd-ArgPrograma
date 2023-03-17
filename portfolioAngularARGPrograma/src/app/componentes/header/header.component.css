@@ -1,0 +1,11 @@
+#img_fotopersonal {
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 576px) {
+    #nombre{
+        display: inline;
+        padding: 20px;
+    }
+}
