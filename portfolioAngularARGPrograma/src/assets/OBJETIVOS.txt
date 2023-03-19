@@ -4,8 +4,8 @@ Skils
 Descripciones
 
 
-BOTONES DE EDITAR
+BOTONES DE EDITAR (terminar)
 
-PANTALLA LOG IN
+PANTALLA LOG IN (interfas)
 
 FOOTER (terminar el boton de mail)
