@@ -1,11 +1,18 @@
-Debe tener: 
-Estudios
-Skils
-Descripciones
+TERMINAR FRONT, 
 
+[
 
-BOTONES DE EDITAR (terminar)
+PANTALLA LOG IN (interfas
 
-PANTALLA LOG IN (interfas)
+crear un modal de bootstrap, que tenga un fade, campos para ingresar/registrarse.
+podriamos hacer que este cargado y simplemente hacerlo aparecer
+
+)
 
 FOOTER (terminar el boton de mail)
+
+]
+
+HACER BASE DE DATOS,
+HACER BACK,
+MONTAR TODO

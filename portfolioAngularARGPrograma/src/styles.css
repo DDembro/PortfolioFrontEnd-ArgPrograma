@@ -1,11 +1,37 @@
 body {
-    background-image: url("./assets/Imagenes/esqueletoEpico.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(6, 13, 37) 0%,
+        rgb(15, 25, 61) 25%,
+        rgb(27, 27, 80) 50%,
+        rgb(28, 45, 99) 75%,
+        rgb(33, 52, 105) 100%
+    );
+
+    background-size: 200% 200%;
+
+    animation: AnimacionBg 7s ease-in-out infinite alternate;
+}
+
+@keyframes AnimacionBg {
+    from{
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 .container {
     border-radius: 15px;
     background-color: rgb(48, 48, 48);
     color: white;
+}
+
+.icono {
+    float: right;
+}
+
+.listaSinPuntos {
+    list-style-type: none;
 }
