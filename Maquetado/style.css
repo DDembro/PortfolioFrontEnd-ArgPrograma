@@ -1,7 +1,7 @@
 body {
     background-image: url("./esqueletoEpico.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:inherit;
+    background-size: auto;
 }
 
 .container {
