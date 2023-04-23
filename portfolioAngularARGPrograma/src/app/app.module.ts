@@ -11,6 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { PreyectosComponent } from './componentes/preyectos/preyectos.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { InicioComponent } from './componentes/inicio/inicio.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { PreyectosComponent } from './componentes/preyectos/preyectos.component'
     HabilidadesComponent,
     NavbarComponent,
     FooterComponent,
-    PreyectosComponent
+    PreyectosComponent,
+    LoginComponent,
+    InicioComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
