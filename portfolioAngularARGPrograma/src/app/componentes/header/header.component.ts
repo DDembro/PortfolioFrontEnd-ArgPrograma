@@ -1,22 +1,38 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
+import { persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/servicios/persona.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
 
-  miPortfolio:any;
+  persona: persona = new persona("","");
 
-  constructor(private datos:PortfolioService){}
+  constructor(public personaService: PersonaService){}
 
   ngOnInit(): void {
-    this.datos.obtenerDatos().subscribe(data=>{
+    
+    this.personaService.getPersona().subscribe(data => {this.persona = data});
 
-      this.miPortfolio = data.personal;
-    });
   }
 
 }
+
+/*  Todo esto es como lo traia antes desde el Json por si me mando una cagada con el back
+
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
+
+
+miPortfolio:any;
+
+constructor(private datos:PortfolioService){}
+
+ngOnInit(): void {
+  this.datos.obtenerDatos().subscribe(data=>{
+
+    this.miPortfolio = data.personal;
+  });
+} */

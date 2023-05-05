@@ -27,7 +27,7 @@ import { RegistroComponent } from './componentes/registro/registro.component';
     PreyectosComponent,
     LoginComponent,
     InicioComponent,
-    RegistroComponent
+    RegistroComponent,
   ],
   imports: [
     BrowserModule,
