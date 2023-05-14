@@ -9,30 +9,14 @@ import { PersonaService } from 'src/app/servicios/persona.service';
 })
 export class HeaderComponent implements OnInit{
 
-  persona: persona = new persona("","");
+  persona: persona = new persona("","","","","");
 
-  constructor(public personaService: PersonaService){}
+  constructor(public sPersona: PersonaService){}
 
   ngOnInit(): void {
     
-    this.personaService.getPersona().subscribe(data => {this.persona = data});
+    this.sPersona.getPersona().subscribe(data => {this.persona = data});
 
   }
 
 }
-
-/*  Todo esto es como lo traia antes desde el Json por si me mando una cagada con el back
-
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
-
-
-miPortfolio:any;
-
-constructor(private datos:PortfolioService){}
-
-ngOnInit(): void {
-  this.datos.obtenerDatos().subscribe(data=>{
-
-    this.miPortfolio = data.personal;
-  });
-} */

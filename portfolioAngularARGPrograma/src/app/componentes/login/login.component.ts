@@ -29,6 +29,7 @@ export class LoginComponent {
       this.isLogginFail = false;
       this.roles = this.tokenService.getAutorities();
     }
+    console.log(this.isLogged);
   }
 
   onLogin(): void{
@@ -42,13 +43,18 @@ export class LoginComponent {
         this.tokenService.setAuthorities(data.authorities);
         this.roles = data.authorities;
         this.router.navigate([''])
+        .then(() => {
+        window.location.reload();
+        });
       }, err =>{
         this.isLogged = false;
         this.isLogginFail = true;
         this.errMsj = err.error.mensaje;
         console.log(this.errMsj);
       }
+      
     )
+      
   }
 
 }
