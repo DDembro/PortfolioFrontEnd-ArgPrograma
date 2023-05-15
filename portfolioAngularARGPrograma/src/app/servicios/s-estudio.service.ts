@@ -20,15 +20,15 @@ export class SEstudioService {
     return this.httpClient.get<Estudio>(this.estudioURL + `detail/${id}`);
   }
 
-  public save(acercaDe: Estudio): Observable<any> {
-    return this.httpClient.post<any>(this.estudioURL + 'create', acercaDe);
+  public save(estudio: Estudio): Observable<any> {
+    return this.httpClient.post<any>(this.estudioURL + 'create', estudio);
   }
 
-  public update(id: number, acercaDe: Estudio): Observable<any> {
-    return this.httpClient.put<any>(this.estudioURL + `update/${id}`, acercaDe);
+  public update(id: number, estudio: Estudio): Observable<any> {
+    return this.httpClient.put<any>(this.estudioURL + `update/${id}`, estudio);
   }
 
   public delete(id: number): Observable<any>{
-    return this.httpClient.delete<any>(this.estudioURL + `update/${id}`);
+    return this.httpClient.delete<any>(this.estudioURL + `delete/${id}`);
   }
 }
