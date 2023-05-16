@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class SEstudioService {
 
-  estudioURL = 'http://localhost:8080/estudio/'
+  estudioURL = 'https://portfolio-backend-ptg7.onrender.com/estudio/'
 
   constructor(private httpClient: HttpClient) { }
 

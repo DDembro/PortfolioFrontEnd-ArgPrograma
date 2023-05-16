@@ -8,7 +8,7 @@ import { Habilidad } from '../model/habilidad';
 })
 export class SHabilidadService {
 
-  habilidadURL = 'http://localhost:8080/habilidad/'
+  habilidadURL = 'https://portfolio-backend-ptg7.onrender.com/habilidad/'
 
   constructor(private httpClient: HttpClient) { }
 
